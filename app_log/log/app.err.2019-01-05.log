@@ -1,0 +1,33 @@
+2019-01-05 16:34:12.181 ERROR[restartedMain]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'spring.bin.' is not valid:
+
+    Invalid characters: '.'
+    Bean: helloController
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'spring.bin.' so that it conforms to the canonical names requirements.
+
+2019-01-05 16:57:36.204 ERROR[restartedMain]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.coolchatting.springbootwebchat.controller.HelloController required a bean of type 'com.coolchatting.autoconfigure.HelloService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.coolchatting.autoconfigure.HelloService' in your configuration.
+
